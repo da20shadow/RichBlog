@@ -17,4 +17,5 @@ import lombok.Setter;
 public class Role extends BaseEntity{
     @Column(nullable = false)
     private String name;
+
 }
